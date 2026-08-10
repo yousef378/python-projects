@@ -13,7 +13,7 @@ if name in list_of_admins:
         list_of_admins.remove(name)
         print(list_of_admins)
     else:
-        print("please whrit correct option")
+        print("please write correct option")
 else:
     print("you are not admin")
     option2=input("do you want to add you:").lower()
