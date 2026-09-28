@@ -11,7 +11,9 @@ while True:
         print(n1 - n2)
       elif a == "*":
         print(n1 * n2)
-      elif a == "/":
+      elif a == "/" and numper_2 != 0 :
         print(n1 / n2)
+      else:
+        print ("erorr")
   calce(numper_1,numper_2)
     
